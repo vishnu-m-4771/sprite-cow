@@ -9,6 +9,19 @@ However, copying all the positions & sizes from graphics apps wasted a ton of my
 
 Currently available online for you to use at http://spritecow.com
 
+Running Locally
+===============
+
+Install dependencies, build the application into `dist/`, and start the local server:
+
+```sh
+npm ci
+npm run build
+npm start
+```
+
+Open http://localhost:8000. After changing source files, run `npm run build` again and refresh the browser. Press Ctrl+C to stop the server.
+
 Changes
 =======
 

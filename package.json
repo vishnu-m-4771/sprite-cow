@@ -2,7 +2,8 @@
   "name": "sprite-cow",
   "private": true,
   "scripts": {
-    "build": "./build.sh"
+    "build": "./build.sh",
+    "start": "serve dist --listen 8000"
   },
   "repository": {
     "type": "git",
@@ -11,8 +12,14 @@
   "bugs": {
     "url": "https://github.com/jakearchibald/sprite-cow/issues"
   },
+  "overrides": {
+    "serve": {
+      "compression": "^1.8.2"
+    }
+  },
   "devDependencies": {
     "sass": "^1.105.1",
+    "serve": "^14.2.6",
     "uglify-js": "^3.19.3"
   }
 }
