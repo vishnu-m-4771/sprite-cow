@@ -1,2 +1,1 @@
-ver=8
-~/dev/sass/bin/sass -l --watch www/assets/$ver/style:www/assets/$ver/style
+npx --no-install sass --no-source-map --watch www/assets/style/all.scss:www/assets/style/all-min.css

@@ -1,2 +1,5 @@
 .DS_Store
 build
+node_modules/
+/www/assets/style/all-min.css
+/www/assets/style/all-min.css.map

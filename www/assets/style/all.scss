@@ -1,5 +1,4 @@
-@import 'utils';
-@import 'fonts';
-@import 'globals';
-@import 'structure';
-@import 'components';
+@use 'fonts';
+@use 'globals';
+@use 'structure';
+@use 'components';
